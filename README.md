@@ -1,2 +1,18 @@
-# -Selenium-4-Cloud-Ready-Test-Automation-Framework-Java-11-LambdaTest-
-A lightweight and scalable Test Automation Framework built on Selenium 4.35 and Java 11. It enables cross-browser testing on the cloud with LambdaTest integration, while supporting parallel execution for faster feedback cycles.
+# 🚀 Cloud-Ready Selenium 4 Test Automation Framework (Java 11 + LambdaTest)
+
+A scalable **Test Automation Framework** built with **Selenium 4.35** and **Java 11**, designed for **cross-browser** and **cross-platform testing**.  
+Integrated with **LambdaTest** for cloud execution and supports **parallel runs** for faster feedback cycles.  
+
+---
+
+## 🔑 Features
+- ✅ Modern **Selenium 4.35** WebDriver APIs  
+- ✅ Built on **Java 11** for reliability and performance  
+- ✅ **LambdaTest integration** for seamless cloud execution  
+- ✅ **Parallel execution** to speed up test cycles  
+- ✅ Clean, extensible design ready for scaling  
+- ✅ CI/CD friendly  
+
+---
+
+## 📂 Project Structure
