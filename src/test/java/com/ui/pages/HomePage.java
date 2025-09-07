@@ -13,7 +13,10 @@ import com.utility.LoggerUtility;
 import static com.utility.PropertiesUtil.*;
 
 public final class HomePage extends BrowserUtility{
+	private static final By SIGN_IN_LINK_LOCATOR = By.xpath("//a[contains(text(),'Sign in')]");
+	
 	Logger logger = LoggerUtility.getLogger(this.getClass());
+	
 	public HomePage(Browser chrome, boolean isHeadless) {
 		super(chrome, isHeadless);
 		//goToWebsite(readProperty(DEV, "URL"));
@@ -30,7 +33,7 @@ public final class HomePage extends BrowserUtility{
 	}
 
 
-	private static final By SIGN_IN_LINK_LOCATOR = By.xpath("//a[contains(text(),'Sign in')]");
+
 	
 	public LoginPage goToLoginPage() { //page Functions ---->
 		logger.info("Trying to perform click to go to sign in page");
@@ -42,5 +45,6 @@ public final class HomePage extends BrowserUtility{
 	public void quit() {
 		getDriver().quit();
 	}
+	
 
 }
